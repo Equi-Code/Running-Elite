@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+
+/* Colores: El protagonista es un Naranja vibrante (#f49d25) para acciones y destaques, sobre un fondo Negro/Marrón muy oscuro para un look premium y deportivo.
+
+Tipografía: Estoy utilizando Space Grotesk, una fuente moderna y geométrica que le da ese toque tecnológico y de alto rendimiento. */
+
+
+body {
+    width: auto;
+    place-items: center;
+    margin: 0;
+    overflow-x: hidden;
+
+    background-color: rgb(34 26 16 / var(--tw-bg-opacity, 1));
+    border-radius: 20%;
+    color: white;
+}
+
+
+/* Header Styles */
+
+.bg-body-tertiary {
+    --bs-bg-opacity: #24190c;
+
+}
+
+.container-fluid-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.navbar-brand {
+    color: #e07b1f;
+
+}
+
+.navbar-brand:hover {
+    color: #f49d25;
+}
+
+
+
+.nav-link {
+    color: white;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+    font-weight: 600;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color: #e07b1f;
+}
+
+.btn-login {
+    gap: 20%;
+    min-width: 90px;
+    background-color: #f49d25;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Main Content Styles */
+
+/* main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 40px;
+} */
+
+/* Prestacion */
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 30px 10px;
+    border-top: 1px solid #f49d25;
+}
+
+.spantext1 {
+    display: inline-block;
+    background-color: #3f290a;
+    /* border: 2px solid #f49d25; */
+    border-radius: 5px;
+    font-size: 1em;
+    color: #f49d25;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+spantext2 {
+
+    font-size: 1em;
+    color: #f49d25;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px; */
+}
+
+.text-container {
+    max-width: 500px;
+    margin-right: 50px;
+    align-self: center;
+}
+
+.img-container {
+    width: 320px;
+    object-fit: cover;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.img-pres{
+    border-radius: 20px;
+}
+
+.btn-comenzar {
+    gap: 20%;
+    min-width: 180px;
+    background-color: #f49d25;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-comenzar:hover {
+    background-color: #e07b1f;
+}
+
+.btn-explorar {
+    gap: 20%;
+    min-width: 180px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #f49d25;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-explorar:hover {
+    background-color: #f49d25;
+    color: white;
+}
+
+.active-runner {
+    background-color: floralwhite;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Comunidad */
+
+#community {
+    display: flex;
+    flex-direction: column;
+    background-color: #3f290a;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 20px;
+    margin-top: 50px;
+    width: 100%;
+    height: 20vh;
+}
+
+.comunity-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.text-center {
+    display: inline-block;
+    max-width: 500px;
+    margin-right: 50px;
+    align-self: center;
+}
+
+.text-center-p{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    color: #f49d25;
+}
+
+.text-info-p{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: white;
+    transform-style: flat;
+}
+
+
+
+/* Rutas Destacadas */
+
+#routes {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 20px;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.rutas {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    gap: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    max-width: 400px;
+    height: auto;
+    background-color: #171109;
+    /* La card se adapta a la altura de la imagen */
+    border: 1px solid #f7b65c;
+    overflow: hidden;
+    /* Oculta partes de imagen fuera de bordes redondeados */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid #f49d25 ;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body{
+    height: 200px;
+    padding: 15px;
+}
+
+.card-title{
+    color: white;
+}
+
+.card-text{
+    color: rgb(100 116 139 / var(--tw-text-opacity, 1));
+}
+
+/* Accesorios */
+
+#accesorios {
+    display: flex;
+    background-color: #3f290a;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+
+/* Contact Section */
+
+
+.contacto {
+    max-width: 800px;
+    margin-top: 50px;
+    margin: 4rem auto;
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+    gap: 20px;
+}
+
+.contacto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.contacto p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+}
+
+.form-group label {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    color: white;
+}
+
+.form-group input,
+.form-group textarea {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    background: transparent;
+    outline: none;
+    transition: border-color 0.3s;
+    color: white;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-bottom-color: #4b2deb;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+    color: white;
+}
+
+.full-width {
+    flex: 100%;
+}
+
+.btn-shoot {
+    display: inline-block;
+    text-align: center;
+    background-color: #f49d25;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.9rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn-shoot:hover {
+    background-color: #f49d25;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #3f290a;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    position: relative;
+}
+
+.footer-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4);
+}
+
+.footer-logo{
+    width: 30%;
+}
+
+.footer-plataforma{
+    width: 30%;
+    margin: 50px;
+    margin-right: 20px;
+}
+
+.footer-compañia{
+    width: 30%;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.footer-ul{
+    list-style: none;
+    line-height: 1.25rem;
+    font-size: 1em;
+    margin: 0%;
+    padding: 0%;
+    gap: 0.5em;
+    color: rgb(100 116 139 / var(--tw-text-opacity, 1)) ;
+}
+
+.footer-ul li:hover{
+    color: #f49d25;
+}
+
+.text-title-footer{
+    justify-content: center;
+}
+
+
+.footer-copy{
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 2rem;
+    border-top-width: 1px;
+    color: rgb(100 116 139 / var(--tw-text-opacity, 1));
+    margin-top: 3rem;
+    line-height: 1rem;
+}
