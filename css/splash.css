@@ -269,14 +269,6 @@ body {
     font-style: italic;
 }
 
-.footer-links{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-    justify-content: center;
-}
-
-
 .links {
     text-decoration: inherit;
     opacity: 1;
