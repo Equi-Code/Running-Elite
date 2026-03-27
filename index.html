@@ -44,7 +44,7 @@
             <a class="navbar-brand" href="#">
                 <img src="./asset/img/aptitud-fisica.png" alt="Logo" width="30" height="24"
                     class="d-inline-block align-text-top">
-                Runner's Elite
+                <span class="title-span">Runner's Elite</span>
             </a>
         </div>
 
@@ -185,31 +185,13 @@
             </section>
         </section>
 
-
-
-        <!-- Reseñas -->
-
-        <!-- <section>
-            <h2>Reseñas de Carreras</h2>
-            <p>Explora nuestras reseñas detalladas de las carreras más populares, desde maratones hasta carreras de
-                obstáculos. Descubre qué esperar, cómo prepararte y consejos para el día de la carrera.</p>
-        </section>
-
-        <section>
-            <h2>Consejos de Entrenamiento</h2>
-            <p>Obtén consejos de entrenamiento efectivos para mejorar tu rendimiento en las carreras. Desde planes de
-                entrenamiento hasta técnicas de recuperación, te ayudamos a alcanzar tus objetivos de running.</p>
-        </section> -->
-
         <!-- Accesorios -->
 
         <section id="accesorios">
 
-            <div>
-                <h2>Accesorios de Running</h2>
-                <p>Descubre los mejores accesorios para corredores, desde zapatillas hasta dispositivos de seguimiento.
-                    Lee
-                    nuestras recomendaciones y encuentra el equipo perfecto para tu próxima carrera.</p>
+            <div class="products">
+                <h2>Equipo de rendimiento de élite</h2>
+                <p class="card-text">Diseñado para la velocidad, construido para la resistencia</p>
             </div>
 
             <div class="card-container">
@@ -218,10 +200,16 @@
                     <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTBwi99LSiz3h7j3ddVsStF3QHZaglrqHFeVxK6C1Bxbwavf_6xg7Lc_lFQOgYpcFrqU72nZq_Ef7ckIO9YJuWDGgcmZ6FuCiyaWORpzXKxho71K1eqvEvm-9dZbfsW42tx165h-c3c8W6lDtN1fA6sCWqyg-KfCQwHuIs9dBnzeQw5ASpPWJEGkX_73mdui5EzpeEu8UmHKg3I1mLYRbYnfhJU2jXuJ8djdj_6xIS7Cj1UoN4T8o4VdSXsR7qhP83pQUj5wk9P_Vm"
                         class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card’s content.</p>
+                    <div>
+                        <h4 class="font-bold">Apex Carbon Pro</h4>
+                        <p class="text-sm text-slate-500">Road Racing Shoe</p>
+                        <p class="mt-1 font-bold text-primary">$249.00</p>
+                    </div>
+
+                        <button
+                            class="absolute bottom-4 right-4 translate-y-4 rounded-full bg-primary p-3 text-background-dark opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                            <span class="material-symbols-outlined"><i>fa fab shopping</i>shopping_cart</span>
+                        </button>
                     </div>
                 </div>
 
@@ -288,65 +276,87 @@
             </section>
     </main>
 
+    <footer class="footer pt-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Company Info -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="tittle-footer">
+                        <a class="navbar-brand" href="#">
+                            <img src="./asset/img/aptitud-fisica.png" alt="Logo" width="30" height="24"
+                                class="d-inline-block align-text-top">
+                            <span class="title-span">Runner's Elite</span>
+                        </a>
+                    </div>
 
-    <footer class="footer">
+                    <p class="mb-4">La comunidad global para corredores de alto rendimiento. Mejora tu entrenamiento con
+                        datos de élite y equipamiento de primera calidad..</p>
 
-        <div class="footer-container">
 
-            <div class="footer-logo">
-                <a class="navbar-brand" href="#">
-                    <img src="./asset/img/aptitud-fisica.png" alt="Logo" width="30" height="24"
-                        class="d-inline-block align-text-top">
-                    Runner's Elite
-                </a>
-                <p>
-                    La comunidad global para corredores de alto rendimiento. Mejora tu entrenamiento con datos de élite
-                    y equipamiento de primera calidad.
-                </p>
-            </div>
 
-            <div class="footer-plataforma">
-                <h4 class="text-title-footer" >Plataforma</h4>
-                <ul class="footer-ul">
-                    <li>Plan de Entrenamiento</li>
-                    <li>Tabla de clasificación mundial</li>
-                    <li>Generador de rutas</li>
-                    <li>Clubes de élite</li>
-                </ul>
-            </div>
+                    <div class="social-links mb-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
 
-                <div class="footer-compañia">
-                <h4 class="text-title-footer">Compañia</h4>
-                <ul class="footer-ul">
-                    <li> <a href="./about.html"></a>Nosotros</li>
-                    <li> <a href="./Rutas.html"></a>Carreras</li>
-                    <li> <a href="./accesorios.html"></a>Accesorios</li>
-                    <li><a href="./Contacto.html"></a>Contacto</li>
-                </ul>
-            </div>
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h3 class="footer-title">Enlaces</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Rutas</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
 
-            <div>
-                <h4>Newsletter</h4>
-                <p>Recibe los últimos consejos de entrenamiento y novedades sobre equipamiento.</p>
-                <form action="">
+                <!-- Support -->
+                <div class="col-lg-2 col-md-6">
+                    <h3 class="footer-title">Soporte</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Comunidad</a></li>
+                        <li><a href="#">Politica de Privacidad</a></li>
+                        <li><a href="#">Terminos y Condiciones</a></li>
+                        <li><a href="#">Política de cookies</a></li>
+                    </ul>
+                </div>
 
-                    <input type="email" placeholder="tuemail@email.com" id="">
-                    <button>Suscribite</button>
-
-                </form>
-            </div>
-
-            <div class="footer-social">
-                <a href="https://www.facebook.com" target="_blank" title="facebook"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.twitter.com" target="_blank" title="twitter"> <i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-
-            <div class="footer-copy">
-            <p>&copy; 2026 Runner's Elite. All rights reserved.</p>
+                <!-- Newsletter -->
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p class="mb-4">Recibe los últimos consejos de entrenamiento y novedades sobre equipamiento..</p>
+                    <form class="mb-4">
+                        <div class="input-group">
+                            <input type="email" class="form-control newsletter-input" placeholder="Enter your email">
+                            <button class="btn btn-subscribe text-white" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                    <p class="small">Al suscribirte, aceptas nuestra Política de Privacidad y das tu consentimiento para
+                        recibir actualizaciones.</p>
+                </div>
             </div>
         </div>
-    
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom mt-5">
+            <div class="container">
+                <div class=" footer-p row py-3">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">&copy; 2026 Runner Elite. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0">Diseñada con por <i class="{} text-danger"></i> by <a href="#">EquiCode</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
